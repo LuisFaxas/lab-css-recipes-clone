@@ -3,22 +3,93 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  line-height: 28px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+body,
+h1,h2,h3,h4,h5,h6,p,ol,ul {
   margin: 0;
   padding: 0;
-  font-weight: lighter;
+  align-items: lighter;
+}
+
+
+.img-holder {
+  position: relative;
+
+}
+
+.appleimg {
+ max-width: 100%;
+ height: auto;
+ display: block;
+ margin: 0 auto;
+
+}
+
+@media (min-width: 1000px){
+  .appleimg{
+    max-width: 1000px;
+  }
+}
+.title {
+  margin: 0;
+  font-size: 75px;
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 40%;
 }
 
 /*  Set the font */
+
 body {
   font-family: "Helvetica", sans-serif;
 }
 
 /* STYLES */
 /* Write your CSS below */
+
+.text1 {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.subtitles {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  text-align: left;
+}
+
+hr {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.alltext {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.list {
+  margin-left: 30px;
+  
+}
+
+.recipeimg {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  height: 65px;
+}
